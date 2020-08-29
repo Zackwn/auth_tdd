@@ -1,8 +1,5 @@
 const request = require('supertest')
 const app = require('../../src/app')
-const {
-  User
-} = require('../../src/app/models')
 const truncate = require('../utils/truncate')
 const factory = require('../factory')
 
